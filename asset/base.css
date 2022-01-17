@@ -1,0 +1,44 @@
+:root{
+    --primary-color:#0f62f9;
+    --white-color:#fff;
+    --black-color:#000; 
+    --border-color:rgba(158,186,237,.5);
+    --text-cost: #003cbf;
+    --gray--color:#d3d3d3;
+    --green-color:#5dac46;
+    --yellow-color:#feaa48;
+}
+html{
+    /* 100% ứng 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    padding-left: 0px;
+}
+.header{
+    z-index: 1 !important;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border: none;
+    outline: none;
+}
+.clearfix{
+	clear: both;
+}
+html{
+    scroll-behavior: smooth ;
+}

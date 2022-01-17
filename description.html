@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/relative.css">
+    <title>Description</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="heading container">
+            <div class="header__web row">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--space">Kênh người bán</li>
+                        <li class="header__navbar-item header__navbar-item--holine">Holine Đặt Hàng (miễn phí)</li>
+                        <li class="header__navbar-item header__navbar-item--call">
+                            <i class="fas fa-phone-alt"></i>
+                            1800 6821
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--space">Sống khỏe</li>
+                        <li class="header__navbar-item header__navbar-item--space">Nhãn hàng PharmaCity</li>
+                        <li class="header__navbar-item header__navbar-item--space">
+                            <i class="fas fa-map-marker-alt"></i>
+                            643 Cửa hàng
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--space header__navbar-item--language">
+                            <div class=" header__navbar-item--languageV">
+                                <img src="./asset/img/flag-vi.svg" class="header__navbar-item--flag" alt="">
+                                Việt Nam
+                                <i class="fas fa-chevron-down header__navbar-icon"></i>
+                            </div>
+                            <ul class="header__navbar-item--language-option">
+                                <li class="header__navbar-item--languageE">
+                                    <img src="./asset/img/flag-en.svg" class="header__navbar-item--flag" alt="">
+                                    English
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item">
+                            Đăng nhập
+                            <i class="fas fa-user-alt"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__body">
+                    <div class="header__body-logo col-lg-2">
+                        <a href=""><img src="./asset/img/pmc-logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="header__body-menu--box header__body-menu">
+                            <i class="fas fa-bars header__body-menu--icon"></i>
+                            DANH MỤC
+                            <i class="fas fa-chevron-down header__body-menu--icon"></i>
+                            <div class="header__body-menulist">
+                                <ul class="header__body-menu--list">
+                                    <li class="header__body-menu--listItem header__body-menu-tag header__body-menu--listItem-choose">Dược phẩm<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc sức khỏe<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc cá nhân<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Sản phẩm tiện lợi<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Thực phẩm chức năng<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Mẹ và Bé<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc sắc đẹp<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem header__body-menu-tag">Thiết bị y tế<i class="fas fa-chevron-right"></i></li>
+                                    <li class="header__body-menu--listItem">
+                                        <a href="" class="header__body-menu--listItem-sale">
+                                            <span>
+                                                Khuyến mãi HOT
+                                                <img src="./asset/img/fire.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__body-search col-lg-6">
+                        <div class="header__body-search--form">
+                            <form action="" method="post" accept-charset="utf-8">
+                                <input type="text" class="header__body-search--input header__body-menu--box" placeholder="Bạn đang tìm gì hôm nay...">
+                            </form>
+                            <i class="fas fa-search header__body-search--icon"></i>
+                        </div>
+                        <ul class="header__body-search-menu">
+                            <li class="header__body-search-menu-list">Covid test kid</li>
+                            <li class="header__body-search-menu-list">Sát khuẩn</li>
+                            <li class="header__body-search-menu-list">Khẩu trang</li>
+                            <li class="header__body-search-menu-list">PharmaCity</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 header__body-shopping">
+                        <a href="cart.html"><div class="header__body-menu--box header__body-cart">
+                            Giỏ hàng
+                            <i class="fas fa-shopping-cart header__body-cart--icon"></i>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header__md row">
+                <div class="header__heading col-md-12 col-sm-12 col-xs-12">
+                    <ul class="header-ipad_list">
+                        <li class="header-ipad_list--item header-ipad_list--store">
+                            <i class="fas fa-map-marker-alt header__ipad--icon"></i>
+                            <div class="header__ipad--listtext">
+                                <p class="header__ipad--text">647</p>
+                                <p class="header__ipad--text">cửa hàng</p>
+                            </div>
+                        </li>
+                        <li class="header-ipad_list--item">
+                            <img src="./asset/img/pmc-logo (1).svg" alt="">
+                        </li>
+                        <li class="header-ipad_list--item">
+                            <a href="cart.html"><i class="fas fa-shopping-cart header__ipad--icon header__ipad--icon-cart"></i></a>
+                        </li>
+                    </ul>
+                    <div class="header__ipad-search--input1">
+                        <form action="" method="post" accept-charset="utf-8">
+                            <input type="text" class="header__ipad-search--input" placeholder="Bạn đang tìm gì hôm nay...">
+                        </form>
+                        <i class="fas fa-search header__ipad-search--icon"></i>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+    <div class="body body--dsc">
+        <div class="dcs__body--nav ">
+            <div class="container">
+                <div class="row">
+                    <div class="dsc__body--breadcrum">
+                        <span><a href="index.html">Trang chủ</a></span>
+                        <span><i class="fas fa-circle"></i><a href="meVaBe.html">Mẹ và bé</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dcs__body container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="dsc__body-img">
+                        <div class="product-imgBox"><img src="./asset/img/product-img1.webp" alt="" id="main-product-img"></div>
+                        <!-- <p>Sản phẩm 100% chính hãng, mẫu mã có thể thay đổi theo lô hàng</p> -->
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="dsc__body-img-selector">
+                        <ul class="img-thumbnail">
+                            <li><a href="#"><img src="./asset/img/thumb1.webp" alt="" id ="thumb1"></a></li>
+                            <li><a href="#"><img src="./asset/img/thumb2.webp" alt="" id ="thumb2"></a></li>
+                            <li><a href="#"><img src="./asset/img/thumb3.webp" alt="" id ="thumb3"></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="dsc__body-dsc">
+                        <h2>Sữa nước hương vani Abbott Grow Gold (180ml x 4 hộp/lốc)</h2>
+                        <div class="dsc__body--product row">
+                            <div class="dsc__body--product-detial col-sm-8">
+                                <div class="product--detail--price">
+                                    <p>58.000 VND</p>
+                                    <p>Mua hàng và tích <span>1740 điểm</span> thành viên <i class="fas fa-question-circle"></i></p>
+                                </div>
+                                <p>Sữa nước hương vani Abbott Grow Gold cung cấp gần 100% nhu cầu calci, thêm DHA và dinh dưỡng chất lượng để bé được hỗ trợ phát triển tốt nhất cả chiều cao và trí não trong giai đoạn mẫu giáo (6 năm đầu đời).</p>
+                                <div class="product-change-number">
+                                    <div class="minus-btn"><i class="fas fa-minus"></i></div>
+                                    <div class="product-number">1</div>
+                                    <div class="plus-btn"><i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="product-buy-section">
+                                    <div class="buy-btn">Mua ngay</div>
+                                    <div class="addToCart-btn"><i class="fas fa-shopping-cart header__body-cart--icon"></i> Thêm vào giỏ </div>
+                                </div>
+                                
+                            </div>
+                            <div class="dsc__body--product-shipping col-sm-4">
+                                <div class="product-brand">
+                                    <div class="brand-logo-name">
+                                        <div class="brand-logo-img" style = "background-image: url(./asset/img/brand-logo.png);"></div>
+                                        <span>Abbott Grow</span>
+                                    </div>
+                                    <div class="brand-moreDetail">
+                                        <a href="#">Xem thêm</a>
+                                    </div>
+                                </div>
+                                <div class="product-shipping-method">
+                                    <h2>Các hình thức giao hàng</h2>
+                                    <p><span>Freeship</span> cho đơn hàng từ <span>300k</span></p>
+                                    <!-- <div class="shipping-brand">
+                                        <span>DHL</span><span>Ahamove</span>
+                                    </div> -->
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dsc__body-tab-section ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tab-section">
+                            <div class="tab-section-heading">
+                                <span data-tab-target="#dsc-tab">Mô tả</span>
+                                <span data-tab-target="#information-tab">Thông tin sản phẩm</span>
+                                <span data-tab-target="#brand-tab">Thương Hiệu</span>
+                            </div>
+                            <div class="tab-section-content">
+                                <div class="dsc-tab" id ="dsc-tab" data-tab-content>
+                                    <p>Công dụng</p>
+                                    <span>Abbott GROW GOLD với hệ dưỡng chất tiên tiến G Power+ giàu dưỡng chất và protein chất lượng cao, đủ 9 acid amin thiết yếu, giúp bé phát triển tốt về thể chất và trí tuệ.
+                                        Bổ sung dưỡng chất cho chế độ ăn hằng ngày, giúp trẻ phát triển tốt chiều cao, não bộ và tăng cường sức đề kháng.</span>
+                                    <p>Đối tượng: <span>Không dùng cho trẻ dưới 1 tuổi.</span></p>
+                                    <p>Thành phần</p>
+                                    <img src="./asset/img/nutrition-tab.png" alt="">
+                                    <br><br>
+                                    <p>Hướng dẫn sử dụng</p>
+                                    <span>Lắc đều trước khi uống. Ngon hơn khi uống lạnh.
+                                        Chỉ dùng cho một lần uống. Nếu đã mở, cần đậy kín, để trong tủ lạnh và sử dụng trong vòng 24 giờ.</span>
+                                    <p>Bảo quản: <span>bảo quản nơi khô mát</span></p>
+                                    <p>Quy cách đóng gói: <span>Lốc 4 hộp x 180ml/hộp</span></p>
+                                    <p>Xuất sứ thương hiệu: <span>Hoa Kì</span></p>
+                                    <p>Sản xuất tại: <span>Malaysia</span></p>
+                                    <span>*Sữa mẹ là thức ăn tốt nhất cho sức khỏe và sự phát triển toàn diện của trẻ nhỏ</span><br>
+                                    <span>*Pharmacity cam kết chỉ bán sản phẩm còn dài hạn sử dụng</span>
+                                    </div>
+                                <div class="infomation-tab" id = "information-tab" data-tab-content>
+                                    <p>Nhãn hàng: <span>Abbott Grow</span></p>
+                                </div>
+                                <div class="brand-tab" id = "brand-tab" data-tab-content>
+                                    <span>Abbott Grow là một trong những sản phẩm dinh dưỡng dành cho trẻ em của tập đoàn Abbott Hoa Kỳ. Abott là công ty chăm sóc sức khỏe hàng đầu thế giới được các chuyên gia nghiên cứu, phát triển, sản xuất và đưa ra các sản phẩm và dịch vụ chăm sóc sức khỏe có chất lượng cao trong dinh dưỡng, dược phẩm, thiết bị chẩn đoán và điều trị. Mỗi độ tuổi sẽ có những giai đoạn phát triển và nhu cầu về dinh dưỡng cho cơ thể bé là khác nhau. Hiểu được điều này, Abbott Grow mang tới cho bé 4 loại sữa dành cho 4 lứa tuổi khác nhau, từ sơ sinh cho đến 6 tuổi để mẹ có thể lựa chọn được sản phẩm tốt nhất dành cho con. Các sản phẩm sữa Abbott Grow đáp ứng nhu cầu phát triển chiều cao nhanh chóng của trẻ, và được nhiều thế hệ gia đình người Việt có trẻ nhỏ tin dùng.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-3">
+                        <div class="relative-product-section">
+                            <h2>Sản phẩm tương tự</h2>
+                            <ul class="product-card-list">
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                <li><a href="#" class="card">
+                                    <img src="./asset/img/rel-product1.webp" alt="">
+                                    <p>Sữa nước hương vani Abbott PediaSure cho trẻ 1-10 tuổi cung cấp đầy đủ chất dinh dưỡng</p>
+                                    <p><span>115.000 VND</span>/Lốc</p>
+                                    <button>Thêm vào giỏ hàng</button>
+                                </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div id="toast"></div>
+    </div>
+    
+    <footer>
+        <div class="footer__header"></div>
+        <div class="footer__body container">
+            <div class="row"></div>
+        </div>
+        <div class="footer__body container">
+            <div class="row">
+                <div class="footer__body-nav col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Về Pharmacity</li>
+                            <li>Tại Pharmacity, mỗi dược sỹ luôn tận tâm phục vụ và được đào tạo để hoàn thành xuất sắc những sứ mệnh được giao.</li>
+                            <li class="footer__body-navbar-header footer__body-navbar-header1">Trở thành nhà cung cấp</li>
+                        </ul>
+                    </div>
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Liên kết hữu ích</li>
+                            <li class="footer__body-navbar--list">Câu hỏi thường gặp</li>
+                            <li class="footer__body-navbar--list">Tìm cửa hàng gần bạn</li>
+                            <li class="footer__body-navbar--list">Chính sách giao hàng</li>
+                            <li class="footer__body-navbar--list">Phương thức thanh toán</li>
+                            <li class="footer__body-navbar--list">Chính sách đổi trả</li>
+                            <li class="footer__body-navbar--list">Thể lệ chương trình thẻ thành viên</li>
+                            <li class="footer__body-navbar--list">Chính sách bảo mật</li>
+                            <li class="footer__body-navbar--list">Chính sách cổ đông</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__body-nav col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Theo dõi chúng tôi trên</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-facebook-square"></i>Facebook</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-youtube"></i>Youtube</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-instagram-square"></i>Instagram</li>
+                            <li class="footer__body-navbar--list1 imgg"><img src="./asset/img/bo-cong-thuong.svg" alt=""></li>
+                            <li class="footer__body-navbar--list1 imgg"><img src="./asset/img/dmca-logo.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Tải ứng dụng Pharmacity ngay thôi</li>
+                            <li class="footer__body-navbar--list1"><img src="./asset/img/gg-play.png" alt=""></li>
+                            <li class="footer__body-navbar--list1"><img src="./asset/img/app store.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer container">
+        <div class="row">
+            <div class="header__footer ipad col-md-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="header__footer-menu">
+                    <a href="index.html"><li class="header__footer-list">
+                        <i class="fas fa-home"></i>
+                        <span class="header__footer-text">Trang chủ</span>
+                    </li></a>
+                    <a href="danhMuc.html"><li class="header__footer-list">
+                        <i class="fas fa-capsules"></i>
+                        <span class="header__footer-text">Danh mục</span>
+                    </li></a>
+                    <a href="cart.html"><li class="header__footer-list">
+                        <i class="fas fa-clipboard"></i>
+                        <span class="header__footer-text">Đơn hàng</span>
+                    </li></a>
+                    <li class="header__footer-list">
+                        <i class="fas fa-user-circle"></i>
+                        <span class="header__footer-text">Cá nhân</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/relative.css">
+    <title>PharmaCity</title>
+</head>
+<body>
+    <header class="header">
+        <div class="heading container">
+            <div class="header__web row">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--space">Kênh người bán</li>
+                        <li class="header__navbar-item header__navbar-item--holine">Holine Đặt Hàng (miễn phí)</li>
+                        <li class="header__navbar-item header__navbar-item--call">
+                            <i class="fas fa-phone-alt"></i>
+                            1800 6821
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--space">Sống khỏe</li>
+                        <li class="header__navbar-item header__navbar-item--space">Nhãn hàng PharmaCity</li>
+                        <li class="header__navbar-item header__navbar-item--space">
+                            <i class="fas fa-map-marker-alt"></i>
+                            643 Cửa hàng
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--space header__navbar-item--language">
+                            <div class=" header__navbar-item--languageV">
+                                <img src="./asset/img/flag-vi.svg" class="header__navbar-item--flag" alt="">
+                                Việt Nam
+                                <i class="fas fa-chevron-down header__navbar-icon"></i>
+                            </div>
+                            <ul class="header__navbar-item--language-option">
+                                <li class="header__navbar-item--languageE">
+                                    <img src="./asset/img/flag-en.svg" class="header__navbar-item--flag" alt="">
+                                    English
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item">
+                            Đăng nhập
+                            <i class="fas fa-user-alt"></i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__body">
+                    <div class="header__body-logo col-lg-2">
+                        <a href="index.html"><img src="./asset/img/pmc-logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="header__body-menu--box header__body-menu">
+                            <i class="fas fa-bars header__body-menu--icon"></i>
+                            DANH MỤC
+                            <i class="fas fa-chevron-down header__body-menu--icon"></i>
+                            <div class="header__body-menulist">
+                                <ul class="header__body-menu--list">
+                                    <a href="duocPham.html"><li class="header__body-menu--listItem header__body-menu-tag header__body-menu--listItem-choose">Dược phẩm<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="chamSocSucKhoe.html"><li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc sức khỏe<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="chamSocCaNhan.html"><li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc cá nhân<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="sanPhamTienLoi.html"><li class="header__body-menu--listItem header__body-menu-tag">Sản phẩm tiện lợi<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="thucPhamChucNang.html"><li class="header__body-menu--listItem header__body-menu-tag">Thực phẩm chức năng<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="meVaBe.html"><li class="header__body-menu--listItem header__body-menu-tag">Mẹ và Bé<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="chamSocSacDep.html"><li class="header__body-menu--listItem header__body-menu-tag">Chăm sóc sắc đẹp<i class="fas fa-chevron-right"></i></li></a>
+                                    <a href="thietBiYTe.html"><li class="header__body-menu--listItem header__body-menu-tag">Thiết bị y tế<i class="fas fa-chevron-right"></i></li></a>
+                                    <li class="header__body-menu--listItem">
+                                        <a href="" class="header__body-menu--listItem-sale">
+                                            <span>
+                                                Khuyến mãi HOT
+                                                <img src="./asset/img/fire.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__body-search col-lg-6">
+                        <div class="header__body-search--form">
+                            <form action="" method="post" accept-charset="utf-8">
+                                <input type="text" class="header__body-search--input header__body-menu--box" placeholder="Bạn đang tìm gì hôm nay...">
+                            </form>
+                            <i class="fas fa-search header__body-search--icon"></i>
+                        </div>
+                        <ul class="header__body-search-menu">
+                            <li class="header__body-search-menu-list">Covid test kid</li>
+                            <li class="header__body-search-menu-list">Sát khuẩn</li>
+                            <li class="header__body-search-menu-list">Khẩu trang</li>
+                            <li class="header__body-search-menu-list">PharmaCity</li>
+                        </ul>
+                    </div>
+                    <a href="cart.html">
+                        <div class="col-lg-2 header__body-shopping">
+                            <div class="header__body-menu--box header__body-cart">
+                                Giỏ hàng
+                                <i class="fas fa-shopping-cart header__body-cart--icon"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="header__md row">
+                <div class="header__heading col-md-12 col-sm-12 col-xs-12">
+                    <ul class="header-ipad_list">
+                        <li class="header-ipad_list--item header-ipad_list--store">
+                            <i class="fas fa-map-marker-alt header__ipad--icon"></i>
+                            <div class="header__ipad--listtext">
+                                <p class="header__ipad--text">647</p>
+                                <p class="header__ipad--text">cửa hàng</p>
+                            </div>
+                        </li>
+                        <li class="header-ipad_list--item">
+                            <img src="./asset/img/pmc-logo (1).svg" alt="">
+                        </li>
+                        <li class="header-ipad_list--item">
+                            <a href="cart.html"><i class="fas fa-shopping-cart header__ipad--icon header__ipad--icon-cart"></i></a>
+                        </li>
+                    </ul>
+                    <div class="header__ipad-search--input1">
+                        <form action="" method="post" accept-charset="utf-8">
+                            <input type="text" class="header__ipad-search--input" placeholder="Bạn đang tìm gì hôm nay...">
+                        </form>
+                        <i class="fas fa-search header__ipad-search--icon"></i>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </header>
+    <div class="clearfix"></div>
+
+
+    <div class="body danhmucsp body_danhmuc">
+        <div class="menu container" id="menu">
+            <div class="row">
+                <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h4 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                        <span class="all"><a href="index.html">Trang chủ</a> <i class="fas fa-circle circle"></i></span>
+                        <span>Danh mục</span>
+                    </h4>
+                </div>
+                <div class="list__menuu col-md-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="list__menu">
+                        <a href="duocPham.html"><li class="list__menu-item">
+                            <img src="./asset/img/01_Dược_phẩm_01-Medicine_Duoc_Pham.png" alt="">
+                            <div class="list__menu-item--text" >Dược phẩm</div>
+                        </li></a>
+                        <a href="chamSocCaNhan.html"><li class="list__menu-item">
+                            <img src="./asset/img/03_Chăm_sóc_cá_nhân_03-Personal_Care_Cham_soc_ca_nhan.png" alt="">
+                            <div class="list__menu-item--text">Chăm sóc cá nhân</div>
+                        </li></a>
+                        <a href="thucPhamChucNang.html"><li class="list__menu-item">
+                            <img src="./asset/img/06_Thực_phẩm_chức_năng_06_06-Vitamin__Supplement_Thuc_pham_chuc_nang.png" alt="">
+                            <div class="list__menu-item--text">Thực phẩm chức năng</div>
+                        </li></a>
+                        <a href="chamSocSacDep.html"><li class="list__menu-item">
+                            <img src="./asset/img/04_Chăm_sóc_sắc_đẹp_04-Beauty_Care_Cham_soc_sac_dep.png" alt="">
+                            <div class="list__menu-item--text">Chăm sóc sắc đẹp</div>
+                        </li></a>
+                        <a href="chamSocSucKhoe.html"><li class="list__menu-item">
+                            <img src="./asset/img/02_Chăm_sóc_sức_khỏe_02-Healthcare_Cham_soc_suc_khoe.png" alt="">
+                            <div class="list__menu-item--text">Chăm sóc sức khỏe</div>
+                        </li></a>
+                        <a href="sanPhamTienLoi.html"><li class="list__menu-item">
+                            <img src="./asset/img/05_Sản_phẩm_tiện_lợi_05-CVS_San_pham_tien_loi.png" alt="">
+                            <div class="list__menu-item--text">Sản phẩm tiện lợi</div>
+                        </li></a>
+                        <a href="meVaBe.html"><li class="list__menu-item">
+                            <img src="./asset/img/6.12.png" alt="">
+                            <div class="list__menu-item--text">Mẹ và Bé</div>
+                        </li></a>
+                        <a href="thietBiYTe.html"><li class="list__menu-item">
+                            <img src="./asset/img/2.05_Thiết_bị_y_tế_2.05-Healthcare_Equipment_Thiet_bi_y_te.png" alt="">
+                            <div class="list__menu-item--text">Thiết bị y tế</div>
+                        </li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="body_danhmuc">
+            <div class="container ">
+                <div class="row">
+                    <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">Tất cả</h3>
+                    <div class="clearfix"></div>
+                    <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                    </div>
+                </div>
+            </div>
+            <div class="body__list container">
+                <div class="row">
+                    <ul class="body__list-item body__list-item--choose">
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        <li class="body__list-item--buy">
+                            <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                            <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                            <div class="body__list-item--cost">
+                                <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                <span class="body__list-item--cost2">/Hộp</span>
+                            </div>
+                            <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                        </li>
+                        
+                    </ul>
+                    <ul class="body__list-item">
+    
+                    </ul>
+                    <ul class="body__list-item">
+                        
+                    </ul>
+                    <ul class="body__list-item">
+                        
+                    </ul>
+                    <ul class="body__list-item">
+                        
+                    </ul>
+                    <ul class="body__list-item">
+                        
+                    </ul>
+                    <ul class="body__list-item">
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="body__page container">
+                <div class="row">
+                    <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <li class="body__page-item body__page-item--choose">1</li>
+                        <li class="body__page-item">2</li>
+                        <li class="body__page-item">3</li>
+                        <li class="body__page-item">4</li>
+                        <li class="body__page-item">5</li>
+                        <li class="body__page-item">6</li>
+                        <li class="body__page-item">7</li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        <!-- <ul class="list__danhmuc">
+            <li class="list_danhmux ">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Dược phẩm</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Chăm sóc cá nhân</span></h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Thực phẩm chức năng</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Chăm sóc cá nhân</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Chăm sóc sức khỏe</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Sản phẩm tiện lợi</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Mẹ và bé</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list_danhmux">
+                <div class="body_duocpham">
+                    <div class="container ">
+                        <div class="row">
+                            <h3 class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                <span class="all">Tất cả <i class="fas fa-circle circle"></i></span>
+                                <span>Thiết bị y tế</span>
+                            </h3>
+        
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__list container">
+                        <div class="row">
+                            <ul class="body__list-item body__list-item--choose">
+                                <li class="body__list-item--buy">
+                                    <img class="body__list-item--img" src="./asset/img/P21820_1_l.webp" alt="">
+                                    <p class="body__list-item--name">Bộ trang phục chống dịch</p>
+                                    <div class="body__list-item--cost">
+                                        <span class="body__list-item--cost1">28.000 VNĐ </span>
+                                        <span class="body__list-item--cost2">/Hộp</span>
+                                    </div>
+                                    <button class="body__list-item--button">Thêm vào giỏ hàng</button>
+                                </li>
+                                
+                               
+                            </ul>
+                            <ul class="body__list-item">
+            
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                            <ul class="body__list-item">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="body__page container">
+                        <div class="row">
+                            <ul class="body__page-list col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <li class="body__page-item body__page-item--choose">1</li>
+                                <li class="body__page-item">2</li>
+                                <li class="body__page-item">3</li>
+                                <li class="body__page-item">4</li>
+                                <li class="body__page-item">5</li>
+                                <li class="body__page-item">6</li>
+                                <li class="body__page-item">7</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul> -->
+        <div id="toast"></div>
+    </div>
+    <div class="clearfix"></div>
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <div class="footer__header"></div>
+        <div class="footer__body container">
+            <div class="row"></div>
+        </div>
+        <div class="footer__body container">
+            <div class="row">
+                <div class="footer__body-nav col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Về Pharmacity</li>
+                            <li>Tại Pharmacity, mỗi dược sỹ luôn tận tâm phục vụ và được đào tạo để hoàn thành xuất sắc những sứ mệnh được giao.</li>
+                            <li class="footer__body-navbar-header footer__body-navbar-header1">Trở thành nhà cung cấp</li>
+                        </ul>
+                    </div>
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Liên kết hữu ích</li>
+                            <li class="footer__body-navbar--list">Câu hỏi thường gặp</li>
+                            <li class="footer__body-navbar--list">Tìm cửa hàng gần bạn</li>
+                            <li class="footer__body-navbar--list">Chính sách giao hàng</li>
+                            <li class="footer__body-navbar--list">Phương thức thanh toán</li>
+                            <li class="footer__body-navbar--list">Chính sách đổi trả</li>
+                            <li class="footer__body-navbar--list">Thể lệ chương trình thẻ thành viên</li>
+                            <li class="footer__body-navbar--list">Chính sách bảo mật</li>
+                            <li class="footer__body-navbar--list">Chính sách cổ đông</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__body-nav col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Theo dõi chúng tôi trên</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-facebook-square"></i>Facebook</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-youtube"></i>Youtube</li>
+                            <li class="footer__body-navbar--list1"><i class="fab fa-instagram-square"></i>Instagram</li>
+                            <li class="footer__body-navbar--list1 imgg"><img src="./asset/img/bo-cong-thuong.svg" alt=""></li>
+                            <li class="footer__body-navbar--list1 imgg"><img src="./asset/img/dmca-logo.svg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="footer__body-navbar col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul>
+                            <li class="footer__body-navbar-header">Tải ứng dụng Pharmacity ngay</li>
+                            <li class="footer__body-navbar--list1"><img src="./asset/img/gg-play.png" alt=""></li>
+                            <li class="footer__body-navbar--list1"><img src="./asset/img/app store.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer container">
+        <div class="row">
+            <div class="header__footer ipad col-md-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="header__footer-menu">
+                    <a href="index.html"><li class="header__footer-list">
+                        <i class="fas fa-home"></i>
+                        <span class="header__footer-text">Trang chủ</span>
+                    </li></a>
+                    <li class="header__footer-list header__footer-list1 header__footer-list--choose">
+                        <i class="fas fa-capsules"></i>
+                        <span class="header__footer-text">Danh mục</span>
+                    </li>
+                    <a href="cart.html"><li class="header__footer-list">
+                        <i class="fas fa-clipboard"></i>
+                        <span class="header__footer-text">Đơn hàng</span>
+                    </li></a>
+                    <li class="header__footer-list">
+                        <i class="fas fa-user-circle"></i>
+                        <span class="header__footer-text">Cá nhân</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
